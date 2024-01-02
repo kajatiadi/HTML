@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu{
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+/* Az "li" megfelelővé formázása */
+#menu li{
+    list-style:none;
+    display: inline-block;
+}
+/* Az "li"-n belül lévő "a" tag formázása */
+#menu li a{
+    text-decoration: none;
+    position: relative;
+    color:black;
+    font-size:40px;
+    font-weight: 700;
+     font-family: monaco,Consolas,Lucida Console,monospace;  
+    display: block;
+    overflow:hidden;
+    transition: 0.7s all;
+    padding: 14px 20px;
+    text-transform:uppercase;
+}
+/* Animáció végrehajtása előtt */
+#menu li a:before{
+    content:'';
+    width: 60px;
+    position: absolute;
+    border-bottom: 8px;
+    bottom:0;
+    right:350px;
+    transition: 0.7s all;
+}
+/* Animáció végrehajtása után */
+#menu li a:hover:before{
+    right:0;
+}
+/* Amikor az egér kurzorját rávisszük a menüsorra akkor az piros színre vált át feketéről */
+#menu li a:hover{
+    color:red;
+}
+/* A szakdolgozat címe és a keszitő "p" tag formázása */
+#p1{
+    text-align:center;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    font-weight: 700;
+    font-size: 80px;
+}
+#p2{
+    text-align: bottom;
+    text-align: center;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    margin-top:75px;
+    font-size: 20px;
+}
+
+

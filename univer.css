@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin:0;
+    padding:0;
+    background-image: url("gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#erdekes{
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    margin-left: 247px;
+    margin-top: 25px;
+    margin-right: 212px;
+    margin-bottom: 25px;
+    text-align: justify;
+    line-height: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: black solid 2.5px;
+}
+#link{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 560px; 
+}
+#link:hover{
+    color:red;
+    transition: 0.7s all;
+}
+nav{
+    width: 100%;
+    height:80px;
+    background-color:transparent;
+}
+ul{
+    margin-left:112px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height:80px;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    color:black;
+    font-weight: 700;
+    padding: 0 20px;
+}
+ul li a:hover{
+    color:red;
+    transition: 0.7s all;
+}
+hr{
+    border: 1px solid black;
+}
+
+ #slider{
+     width: 1000px;
+     height: 500px;
+     margin: 20px auto;
+     position: relative;
+     border: 10px solid #9e1487;
+     box-shadow: 0px 0px 5px 2px black;
+ }
+ button{
+     padding: 20px;
+     border: none;
+     background-image:url("gradient.jpg");
+     font-size: 30px;
+     color: black;
+     position: absolute;
+     top:45%;
+     cursor: pointer;
+ }
+
+.next{
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 950px;
+}
+.prew{
+    border-radius: 0px 10px 10px 0px;
+}
+#viselkedés{
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    margin-left: 247px;
+    margin-top: 25px;
+    margin-right: 212px;
+    margin-bottom: 25px;
+    text-align: justify;
+    line-height: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
